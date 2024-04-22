@@ -1,0 +1,80 @@
+body{
+  background: linear-gradient(90deg, pink, lightgreen, pink);
+   background-size: 800px;
+   background-position-x: center;
+   text-decoration: none;
+text-transform: uppercase;
+transition: 0.5s;
+background-size: cover;
+
+   
+
+}
+
+h2{
+  font-size: 70px;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: darkslateblue; 
+
+}
+button{
+  height: 100px;
+  width: 150px;
+  border-width: 2px;
+  border-style: solid;
+  margin-left: 15px;
+  font-size: xxx-large;
+  color: black;
+  font-family: cursive;
+  font-weight: bolder;
+  cursor: pointer;
+  background: var(--clr);
+  letter-spacing: 0.25em;
+  border-radius: 20px;
+  transition-duration: 0.60s;
+  background: var(--clr);
+  letter-spacing: 0.25em;
+  transition: scale(.95);
+  background-size: cover;
+  
+  
+}
+#box{
+  padding: 20px 10px;
+  align-items: center ;
+  margin: 200px;
+  border-radius: 10px;
+  transition: scale(.95);
+  background-color: lightcoral;
+
+}
+
+
+button:hover {
+  border: 10px solid plum;
+  box-shadow: 0 0 5px white,
+  0 0 25px #f8eeee, 0 0 50px #f8eeee,
+  0 0 100px lightcoral, 0 0 200px lightcoral;
+  background: var(--clr);
+  letter-spacing: 0.25em;
+
+}
+
+button:active {
+  background-color: transparent;
+  border: 10px solid yellow;
+  transform: translateY(4px);
+  transition: scale(.95);
+  background: var(--clr);
+  letter-spacing: 0.25em;
+}
+
+.add{
+  background-color: transparent;
+  border: 10px solid lightgreen;
+  transform: translateY(4px);
+  background: var(--clr);
+  }
+ 
+ 
